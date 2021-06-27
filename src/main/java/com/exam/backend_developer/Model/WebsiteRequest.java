@@ -10,6 +10,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.Date;
 
 @Entity
 @Data
@@ -24,4 +25,7 @@ public class WebsiteRequest {
     private String name;
     private String websiteUrl;
     private int frequency;
+    private String status;
+    private Date lastStatusUpdate;
+    private Date lastStatusTime;
 }
