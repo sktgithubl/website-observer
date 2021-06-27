@@ -28,4 +28,5 @@ public class WebsiteRequest {
     private String status;
     private Date lastStatusUpdate;
     private Date lastStatusTime;
+    private Long responseTime;
 }
